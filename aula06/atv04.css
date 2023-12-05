@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+}
+
+.box{
+    background-color: aliceblue;
+    display: grid;
+    border: solid 6px aqua;
+    grid-template-areas:"titulo titulo titulo"
+                        "conteudo menuR rodape";
+    grid-template-rows: 100px 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulo{
+    background-color: lightblue;
+    grid-area: titulo;
+}
+
+.menuR{
+    background-color: lightskyblue;
+    grid-area: menuR;
+}
+
+.conteudo{
+    background-color: blue;
+    grid-area: conteudo;
+}
+
+.rodape{
+    background-color: rgb(103, 248, 248);
+    grid-area: rodape;
+}
+
+.img{
+    background-image: url(taytay1.png);
+    background-position: left;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    grid-area: titulo;
+}
+
+.title{
+    border: solid aqua 2px;
+    color: black;
+    margin: 25px 900px;
+    grid-area: titulo;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.box{
+    background-color: aliceblue;
+    display: grid;
+    border: solid 6px aqua;
+    grid-template-areas:"titulo titulo"
+                        "conteudo menuR";
+    grid-template-rows: 50px 50vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+    background-color: lightblue;
+    grid-area: titulo;
+}
+
+.menuR{
+    background-color: lightskyblue;
+    grid-area: menuR;
+}
+
+.conteudo{
+    background-color: blue;
+    grid-area: conteudo;
+}

@@ -1,0 +1,40 @@
+.body{
+    background-color: rgb(255, 2, 192);
+}
+
+.box {
+    background-color: black;
+    height: 600px;
+    border: solid 6px rgb(255, 85, 113);
+    display: grid;
+    grid-template-areas:"titulo titulo titulo"
+                        "menuL conteudo menuR"
+                        "rodape rodape rodape";
+    grid-template-rows: 50px 1fr 90px;
+    grid-template-columns: 150px 1fr 150px;
+}
+
+.titulo {
+    background-color: lightcoral;
+    grid-area: titulo;
+}
+
+.menuL {
+    background-color: palevioletred;
+    grid-area: menuL;
+}
+
+.conteudo {
+    background-color: lightpink;
+    grid-area: conteudo;
+}
+
+.menuR {
+    background-color: palevioletred;
+    grid-area: menuR;
+}
+
+.rodape {
+    background-color: lightcoral;
+    grid-area: rodape;
+}

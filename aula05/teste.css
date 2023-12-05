@@ -1,0 +1,101 @@
+* {
+    margin: 1px;
+}
+ 
+.d1 {
+    background-color: rgb(90, 232, 90);
+    padding-top: 20px;
+    border: 2px solid rgb(246, 6, 6);
+
+}
+
+#d2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    border: 2px solid gray;
+    background-color: gray;
+}
+
+.d3 {
+    background-color: rgb(219, 234, 61);
+    padding-top: 20px;
+    border: 2px solid rgb(246, 6, 6);
+
+}
+
+#d4 {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 5px;
+    margin: 5px;
+    border: 2px solid rgb(91, 7, 7);
+    background-color: rgb(91, 7, 7);
+}
+
+#d5 {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(205, 63, 221);
+}
+
+#d6 {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left center;
+    padding-top: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(41, 99, 224);
+    background-color: rgb(41, 99, 224);
+}
+
+#d7 {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 5px;
+    margin: 50px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgb(241, 10, 10);
+    background-color: rgb(241, 10, 10);
+}
+
+#d8 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px;
+    border: 2px solid rgb(52, 239, 83);
+    background-color: rgb(52, 239, 83);
+}
+
+.d9 {
+    background-color: rgb(244, 246, 244);
+    padding-top: 20px;
+}
+
+.d10 {
+    background-color: rgb(246, 6, 6);
+    padding-top: 5px;
+    border: 2px solid rgb(246, 6, 6);
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.d11 {
+    background-color: rgb(61, 234, 67);
+    padding-top: 20px;
+}
