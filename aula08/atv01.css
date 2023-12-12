@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+.box{
+    background-color: lightpink;
+    display: grid;
+    height: 600px;
+    border: solid 2px palevioletred;
+    grid-template-areas:"titulo titulo titulo"
+                        "ce conteudo cr"
+                        "rodape rodape rodape";
+    grid-template-rows: 100px 1fr 90px;
+    grid-template-columns: 80px 1fr 200px;
+}
+
+.titulo{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: titulo;
+    text-align: center;
+}
+
+.conteudo{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: conteudo;
+    text-align: center;
+}
+
+.rodape{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: rodape;
+    text-align: center;
+}
+
+.cr{
+    background-color: lightpink;
+    display: grid;
+    grid-template-areas:"cr1 cr5"
+                        "cr2 cr6"
+                        "cr3 cr7"
+                        "cr4 cr8";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cr .cr1{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr1;
+    text-align: center;
+}
+
+.cr .cr2{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr2;
+    text-align: center;
+}
+
+.cr .cr3{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr3;
+    text-align: center;
+}
+
+.cr .cr4{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr4;
+    text-align: center;
+}
+
+.cr .cr5{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr5;
+    text-align: center;
+}
+
+.cr .cr6{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr6;
+    text-align: center;
+}
+
+.cr .cr7{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr7;
+    text-align: center;
+}
+
+.cr .cr8{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: cr8;
+    text-align: center;
+}
+
+.cr .cr3 p{
+        background-color: lightskyblue; 
+        border: 2px palevioletred;
+}
+
+.cr .cr6 p{
+    background-color: lightskyblue;
+    border: 2px palevioletred;
+}
+
+.ce{
+    background-color: lightpink;
+    display: grid;
+    grid-template-areas:"ce1"
+                        "ce2"
+                        "ce3";
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.ce .ce1{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: ce1;
+    text-align: center;
+}
+
+.ce .ce2{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: ce2;
+    text-align: center;
+}
+
+.ce .ce3{
+    background-color: lightpink;
+    border: solid 2px palevioletred;
+    grid-area: ce3;
+    text-align: center;
+}
